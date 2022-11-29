@@ -6,8 +6,15 @@
     box-sizing: border-box;
 }
 
+/* Utils */
+
 .container {
     width: 50%;
     margin: auto;
 }
 
+/* Intestazione */
+
+#intestazione {
+    
+}

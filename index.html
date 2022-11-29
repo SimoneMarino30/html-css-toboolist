@@ -9,9 +9,9 @@
 
 </head>
 <body>
-    <header>
-        <img src="./img/logo.png" alt="">
-        <h1>Toboolist</h1>
+    <header id="intestazione">
+        <img src="./img/logo.png" alt="logo">
+        <span>Toboolist</span>
     </header>
 
     <div  class="container">
@@ -22,22 +22,34 @@
      </header>
 
      <main>
-        <ul>
-            <li><h3>New Task</h3></li> 
-            <li>Quarterly Newsletter <span>Editorial</span></li>
-            <br> 
-            <li><h3>Today</h3></li>
-            <li>Recruiting blog post <span>Editorial</span></li> 
-            <li>Mobile app launch <span>Q1 Goals</span></li>
-            <li>Interview Jhon H. <span>Recruiting</span></li>
-            <li>Summit update to mobile storefronts <span>Mobile</span></li>
+        
+        <details>
+            <summary>New Task</summary>
+            Quarterly Newsletter <span>Editorial</span>
+        </details>
+
+        <details>
+            <summary>Today</summary>
+            Recruiting blog post <span>Editorial</span>
             <br>
-            <li><h3>Upcoming</h3></li>
-            <li>Schedule meeting with Alex</li>
-            <li>Homepage refresh <span>Website</span></li>
-            <li>Onboard new Sales team members <span>Sales</span></li>
-            <li>Review editorial calendar <span>Editorial</span></li>
-        </ul>
+            Mobile app launch <span>Q1 Goals</span>
+            <br>
+            Interview Jhon H. <span>Recruiting</span>
+            <br>
+            Summit update to mobile storefronts <span>Mobile</span>
+        </details>
+
+        <details>
+            <summary>Upcoming</summary>
+            Schedule meeting with Alex
+            <br>
+            Homepage refresh <span>Website</span>
+            <br>
+            Onboard new Sales team members <span>Sales</span>
+            <br>
+            Review editorial calendar <span>Editorial</span>
+        </details>
+    
      </main>
     </div>
 </body>
