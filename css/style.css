@@ -30,6 +30,15 @@ main {
     margin-left: 25px;
 }
 
+label {
+    width: auto;
+    height: auto;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+
 /* Intestazione */
 
 #titolo {
@@ -72,7 +81,7 @@ main {
     color: #CFD3D8;   
 }
  /* Attività */
- 
+
 .positive {
     border-color: green;
     color: green;
@@ -94,9 +103,29 @@ main {
     text-align: center;
 }
 
+/* Colore etichette */
 
-label {
-
+.editorial {
+    background-color: #47ADF1;   
 }
 
+.q1 {
+    background-color: #9B71E4;
+}
+
+.recruiting{
+    background-color: #64C0A9;
+}
+
+.mobile {
+    background-color: #F29E33;
+}
+
+.website {
+    background-color: #D863A1;
+}
+
+.sales {
+    background-color: #B0C926;
+}
 
