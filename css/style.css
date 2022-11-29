@@ -8,13 +8,62 @@
 
 /* Utils */
 
+body {
+    background-color: #e6ecee;
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     width: 50%;
     margin: auto;
+    background-color: white;
+}
+
+hr {
+    height: 3px;
+    background-color: #CFD3D8;
+    border: none;
+}
+
+/* Buttons */
+
+.task, .section {
+    width: 120px;
+    height: 35px;
+    margin: 15px; 
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.task {
+    background-color: #47ADF1;
+    border: none;
+    color: white;
+}
+
+.section {
+    background-color: white;
+    border-color: #CFD3D8;
+    color: #CFD3D8;   
 }
 
 /* Intestazione */
 
+#titolo {
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+#logo {
+    vertical-align: middle;
+    height: 70px;
+}
+
 #intestazione {
+    display: inline;
+    vertical-align: middle;
+    font-size: 45px;
     
 }

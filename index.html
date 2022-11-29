@@ -4,25 +4,36 @@
     <meta charset="UTF-8">
 
     <title>Toboolist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
+
 <body>
-    <header id="intestazione">
-        <img src="./img/logo.png" alt="logo">
-        <span>Toboolist</span>
+
+    <!-- Intestazione -->
+
+    <header id="titolo">
+        <img src="./img/logo.png" alt="logo" id="logo">
+        <h1 id="intestazione">Toboolist</h1>
     </header>
+    
+    <!-- Buttons -->
 
     <div  class="container">
      <header>
-         <button type="button">Add Task</button>
-         <button type="button">Add Section</button>
+
+         <button type="button" class="task">Add Task</button>
+         <button type="button" class="section">Add Section</button>
          <hr>
      </header>
 
+    <!-- Attività -->
+
      <main>
-        
         <details>
             <summary>New Task</summary>
             Quarterly Newsletter <span>Editorial</span>
